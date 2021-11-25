@@ -17,3 +17,9 @@ https://phoenixnap.com/kb/how-to-list-display-view-all-cron-jobs-linux
 To edit the crons: type the following in the console of the server:
 crontab -e
 and this will open an editor. Type the following code*/2 0-8 * * 0-4 cd /root && /usr/bin/python3 /root/scrape_yahoo.py >> test.out
+
+
+Install Ispconfig with Mysql8
+https://git.ispconfig.org/ispconfig/ispconfig3/-/issues/5418
+
+https://www.eninsoft.com/instalacion-de-ispconfig-3-x-en-debian-9-mysql8-version-optimizada/
