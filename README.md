@@ -32,11 +32,13 @@ cp -r /path/to/directory /path/to/location/new-name
 https://askubuntu.com/questions/607149/change-permissions-to-a-specific-user-in-ubuntu-12-04
 
  If you want to change the permissions use this command (755 will grant the owner of the file read, write and execute permissions and read and execute permissions to group and other users ):
-
-   sudo chmod -R 755 directory
+ 
+   # sudo chmod -R 755 directory 
+   
  If you want to change ownership of a folder and it's subfolders and files
 
-   sudo chown -R username:usergroup directory
+   # sudo chown -R username:usergroup directory
+   
  If the owner of a file or directory is let's say the user jofrey you want to grant him read and write permissions:
 
-   sudo chmod -R u+rw directory
+   # sudo chmod -R u+rw directory
