@@ -42,3 +42,6 @@ https://askubuntu.com/questions/607149/change-permissions-to-a-specific-user-in-
  If the owner of a file or directory is let's say the user jofrey you want to grant him read and write permissions:
 
    # sudo chmod -R u+rw directory
+   
+# Connecting to SSH Over Internet
+https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/#connecting-to-ssh-over-internet
