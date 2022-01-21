@@ -47,4 +47,6 @@ https://askubuntu.com/questions/607149/change-permissions-to-a-specific-user-in-
 https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/#connecting-to-ssh-over-internet
 
 # Secondary Skype
+https://askubuntu.com/questions/211139/how-can-i-run-two-skype-accounts-on-the-same-ubuntu
+
 skypeforlinux --secondary
