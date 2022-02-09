@@ -50,3 +50,6 @@ https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/#connecting-to-ssh-o
 https://askubuntu.com/questions/211139/how-can-i-run-two-skype-accounts-on-the-same-ubuntu
 
 skypeforlinux --secondary
+
+## FTP: Server sent passive reply with unroutable address. Using server address instead ##issue
+https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-set-the-passiveportrange-in-pure-ftpd-on-debian-and-ubuntu-linux/
