@@ -53,3 +53,7 @@ skypeforlinux --secondary
 
 ## FTP: Server sent passive reply with unroutable address. Using server address instead ##issue
 https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-set-the-passiveportrange-in-pure-ftpd-on-debian-and-ubuntu-linux/
+
+## Increase Url get request length
+https://stackoverflow.com/questions/2586339/how-to-increase-apache-2-uri-length-limit/40192382#40192382
+
