@@ -57,3 +57,6 @@ https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-set-the-passivepo
 ## Increase Url get request length
 https://stackoverflow.com/questions/2586339/how-to-increase-apache-2-uri-length-limit/40192382#40192382
 
+# BIOS item-Restore AC Power Loss function (Google search: asus bios restore ac power loss)
+https://www.asus.com/support/faq/1049855/
+
