@@ -1,0 +1,449 @@
+@charset "UTF-8";
+.af-support-wrapper.af-support-faq {
+  min-width: 0;
+  width: 100%; }
+
+.af-sp-faqContent {
+  width: 100%;
+  padding-bottom: 5em; }
+  .af-sp-faqContent .page-title {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #181818; }
+  .af-sp-faqContent .page-header {
+    padding: 1.8em 0 0;
+    border-bottom: 1px solid #b3b3b3; }
+    .af-sp-faqContent .page-header .title {
+      font-size: 2.4em;
+      line-height: 1.2em;
+      font-weight: 300;
+      padding-bottom: .4em; }
+    .af-sp-faqContent .page-header .date {
+      font-size: .7em;
+      font-weight: 500;
+      color: #666666; }
+    .af-sp-faqContent .page-header .option {
+      position: relative;
+      text-align: right;
+      padding: 1.2em 0 1em; }
+      .af-sp-faqContent .page-header .option a {
+        display: inline-block;
+        position: relative;
+        font-size: .7em;
+        font-weight: 500;
+        color: #666666;
+        text-transform: uppercase;
+        padding: 0 1em; }
+        .af-sp-faqContent .page-header .option a:hover {
+          text-decoration: underline;
+          color: #555; }
+        .af-sp-faqContent .page-header .option a:before {
+          content: "";
+          display: inline-block;
+          position: relative;
+          font-family: "icomoon";
+          vertical-align: middle;
+          padding-right: .1em;
+          top: -3px; }
+        .af-sp-faqContent .page-header .option a.sendPhone:after, .af-sp-faqContent .page-header .option a.copyLink:after {
+          content: "";
+          display: inline-block;
+          position: absolute;
+          height: 1em;
+          border-left: 1px solid #666666;
+          margin-left: 1.2em;
+          top: 5px;
+          left: -1em; }
+        .af-sp-faqContent .page-header .option a.sendEmail:before {
+          content: "\e912";
+          font-size: 2.6em; }
+        .af-sp-faqContent .page-header .option a.sendPhone {
+          padding-right: 0; }
+          .af-sp-faqContent .page-header .option a.sendPhone:before {
+            content: "\e913";
+            font-size: 2.3em; }
+        .af-sp-faqContent .page-header .option a.print:before {
+          content: "\e911";
+          font-size: 2.6em; }
+        .af-sp-faqContent .page-header .option a.copyLink {
+          display: none; }
+          .af-sp-faqContent .page-header .option a.copyLink:before {
+            content: "\e910";
+            font-size: 2.2em; }
+        .af-sp-faqContent .page-header .option a:last-child {
+          padding-right: 0; }
+      .af-sp-faqContent .page-header .option .copyMsg {
+        display: inline-block;
+        position: absolute;
+        width: 155px;
+        background: #aaa;
+        font-size: .7em;
+        color: #fff;
+        bottom: 2.5em;
+        left: -50%;
+        padding: .5em 1.8em;
+        border-radius: 4px;
+        text-align: center; }
+        .af-sp-faqContent .page-header .option .copyMsg:after {
+          content: "";
+          display: inline-block;
+          position: absolute;
+          bottom: -.9em;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          width: 0;
+          height: 0;
+          border: .5em solid transparent;
+          border-top-color: #aaa; }
+  .af-sp-faqContent .page-content {
+    padding: 2em 0 1.8em;
+    border-bottom: 1px solid #b3b3b3; }
+    .af-sp-faqContent .page-content h1 {
+      font-size: 1.5em;
+      color: #222;
+      line-height: 1.4em;
+      margin-bottom: .5em; }
+    .af-sp-faqContent .page-content h2, .af-sp-faqContent .page-content h3, .af-sp-faqContent .page-content h4, .af-sp-faqContent .page-content h5, .af-sp-faqContent .page-content h6 {
+      color: #222; }
+    .af-sp-faqContent .page-content h2 {
+      font-size: 1.6em;
+      line-height: 1.5em; }
+    .af-sp-faqContent .page-content h3 {
+      font-size: 1.4em;
+      line-height: 2em; }
+    .af-sp-faqContent .page-content h4 {
+      font-size: 1.2em;
+      line-height: 2em; }
+    .af-sp-faqContent .page-content p {
+      font-size: 1em;
+      color: #555;
+      line-height: 1.8em;
+      padding-bottom: .4em;
+      word-break: break-word; }
+    .af-sp-faqContent .page-content span {
+      line-height: 1.8em;
+      word-break: break-word; }
+    .af-sp-faqContent .page-content ol {
+      list-style: decimal;
+      padding-left: 1.2em; }
+      .af-sp-faqContent .page-content ol li {
+        position: relative;
+        padding: .2em 0 .2em .2em;
+        line-height: 1.6em;
+        color: #555; }
+    .af-sp-faqContent .page-content ul li {
+      position: relative;
+      padding: .2em 0 .2em 1.4em;
+      line-height: 1.6em;
+      color: #555; }
+      .af-sp-faqContent .page-content ul li:before {
+        content: "·";
+        display: inline-block;
+        position: absolute;
+        top: 0em;
+        left: 0;
+        padding: 0 0 0 .2em;
+        font-size: 2em; }
+    .af-sp-faqContent .page-content .model-title {
+      padding: .4em 0 2.1em; }
+      .af-sp-faqContent .page-content .model-title .tag-title {
+        font-size: .7em;
+        line-height: 1.4em;
+        color: #000; }
+        .af-sp-faqContent .page-content .model-title .tag-title::after {
+          content: " : ";
+          display: inline-block;
+          padding: 0 .4em; }
+      .af-sp-faqContent .page-content .model-title .tag {
+        font-size: .7em;
+        font-weight: normal;
+        line-height: 1.4em;
+        color: #666666; }
+        .af-sp-faqContent .page-content .model-title .tag::after {
+          content: ", "; }
+        .af-sp-faqContent .page-content .model-title .tag:last-child::after {
+          content: ""; }
+    .af-sp-faqContent .page-content strong {
+      font-weight: 600; }
+    .af-sp-faqContent .page-content img {
+      max-width: 100% !important;
+      height: auto !important; }
+    .af-sp-faqContent .page-content table {
+      max-width: 100% !important; }
+      .af-sp-faqContent .page-content table tbody, .af-sp-faqContent .page-content table tfoot, .af-sp-faqContent .page-content table thead, .af-sp-faqContent .page-content table tr, .af-sp-faqContent .page-content table th, .af-sp-faqContent .page-content table td {
+        vertical-align: middle; }
+    .af-sp-faqContent .page-content .rel-content {
+      padding: 6em 0 .5em; }
+      .af-sp-faqContent .page-content .rel-content .title {
+        font-size: 1.6em;
+        font-weight: 600;
+        color: #181818;
+        margin-bottom: .6em; }
+      .af-sp-faqContent .page-content .rel-content ul li {
+        padding: 0; }
+        .af-sp-faqContent .page-content .rel-content ul li a {
+          display: inline-block;
+          font-size: .8em;
+          line-height: 1.4em;
+          padding: .4em 0; }
+        .af-sp-faqContent .page-content .rel-content ul li a:hover {
+          text-decoration: underline;
+        }
+        .af-sp-faqContent .page-content .rel-content ul li:before {
+          display: none; }
+    .af-sp-faqContent .page-content.content-toomuch .main-content {
+      /* display: table-footer-group; */
+      display: block;
+      word-break: normal; }
+    .af-sp-faqContent .page-content.content-toomuch .rel-content {
+      /* display: table-caption; */
+      display: block;
+      margin-bottom: 1em;
+      padding-top: .6em; }
+
+    /* healthHub start */
+    .af-sp-faqContent .page-content.content-toomuch .rel-content-healthHub {
+      display: block;
+    }
+    .af-sp-faqContent .page-content.content-toomuch .rel-content-healthHub .title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 48px;
+      color: #181818;
+      margin-bottom: 36px;
+    }
+    .af-sp-faqContent .page-content.content-toomuch .faq-healthHub:not(:last-child) {
+      margin-bottom: 120px;
+    }
+    .af-sp-faqContent .page-content.content-toomuch .faq-healthHub {
+      display: block;
+    }
+    .af-sp-faqContent .page-content.content-toomuch .faq-healthHub .faq-healthHub-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      row-gap: 80px;
+    }
+    .af-sp-faqContent .page-content .faq-healthHub .faq-healthHub-wrapper p {
+      padding-bottom: 0;
+      margin-bottom: 24px;
+      font-size: 20px;
+      line-height: 36px;
+    }
+    .af-sp-faqContent .page-content .faq-healthHub .faq-healthHub-wrapper .faq-healthHub-item {
+      max-width: 375px;
+    }
+    /* healthHub end */
+
+    .af-sp-faqContent .page-content:after {
+      content: "";
+      display: block;
+      clear: both; }
+  .af-sp-faqContent .page-tags {
+    padding: 2em 0 1.2em; }
+    .af-sp-faqContent .page-tags ul li {
+      padding: .4em 0; }
+      .af-sp-faqContent .page-tags ul li .tag-title {
+        font-size: .8em;
+        color: #4d4d4d; }
+        .af-sp-faqContent .page-tags ul li .tag-title:after {
+          content: " : ";
+          display: inline-block;
+          padding: 0 .4em; }
+      .af-sp-faqContent .page-tags ul li .tag {
+        font-size: .9em;
+        font-weight: 600;
+        color: #000; }
+        .af-sp-faqContent .page-tags ul li .tag:after {
+          content: ", "; }
+        .af-sp-faqContent .page-tags ul li .tag:last-child:after {
+          content: ""; }
+  .af-sp-faqContent .feedback-block {
+    background: #f2f2f2;
+    padding: 1.7em 2.25em;
+    position: relative;
+    margin: .5em 0; }
+    .af-sp-faqContent .feedback-block .title {
+      font-size: .9em;
+      font-weight: 600;
+      padding-bottom: 1.4em; }
+    .af-sp-faqContent .feedback-block .af-sp-btn {
+      font-size: .7em;
+      text-transform: uppercase;
+      width: 10em;
+      margin: 0 .5em .5em 0; }
+      .af-sp-faqContent .feedback-block .af-sp-btn.btn-fb-maybe {
+        background: #999; }
+    .af-sp-faqContent .feedback-block .feedback-statistical {
+      display: inline-block;
+      height: 1.2em;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      right: 2em; }
+      .af-sp-faqContent .feedback-block .feedback-statistical p {
+        display: inline-block;
+        font-size: .9em;
+        color: #4d4d4d; }
+        .af-sp-faqContent .feedback-block .feedback-statistical p .percentage {
+          font-size: 1.7em;
+          font-weight: 500;
+          color: #000;
+          padding-right: .3em; }
+      .af-sp-faqContent .feedback-block .feedback-statistical:before {
+        content: "";
+        display: inline-block;
+        position: relative;
+        font-family: "icomoon";
+        font-size: 1.2em;
+        padding-right: .4em; }
+      .af-sp-faqContent .feedback-block .feedback-statistical.feeling0:before {
+        content: "\e90b"; }
+      .af-sp-faqContent .feedback-block .feedback-statistical.feeling1:before {
+        content: "\e90d"; }
+      .af-sp-faqContent .feedback-block .feedback-statistical.feeling2:before {
+        content: "\e90c"; }
+      .af-sp-faqContent .feedback-block .feedback-statistical.feeling3:before {
+        content: "\e90e"; }
+      .af-sp-faqContent .feedback-block .feedback-statistical.feeling4:before {
+        content: "\e90f"; }
+  .af-sp-faqContent .icr-block {
+    position: relative;
+    padding-left: 5em;
+    padding: 1.5em 0 1.5em 7em;
+    border-bottom: 1px solid #e0e0e0; }
+    .af-sp-faqContent .icr-block .title {
+      font-size: 1.5em;
+      color: #222; }
+    .af-sp-faqContent .icr-block .desp {
+      font-size: .9em;
+      line-height: 1.4em;
+      color: #555;
+      padding: .4em 0; }
+    .af-sp-faqContent .icr-block .af-sp-btn {
+      position: relative;
+      font-size: .7em;
+      color: #fff;
+      text-transform: capitalize;
+      padding-left: 3.2em;
+      margin: 1em 0;
+      height: 3em;
+      line-height: 3em; }
+      .af-sp-faqContent .icr-block .af-sp-btn:before {
+        content: "\e922";
+        display: inline-block;
+        position: absolute;
+        left: .4em;
+        font-family: "icomoon";
+        font-size: 2.2em; }
+    .af-sp-faqContent .icr-block:before {
+      content: "\e930";
+      display: inline-block;
+      position: absolute;
+      font-family: "icomoon";
+      font-size: 5em;
+      color: #666666;
+      top: .3em;
+      left: 0; }
+  .af-sp-faqContent .notice-block {
+    padding: 1.6em 0; }
+    .af-sp-faqContent .notice-block .title {
+      font-size: .7em;
+      color: #4d4d4d;
+      margin-bottom: 1em; }
+    .af-sp-faqContent .notice-block ul li {
+      position: relative;
+      font-size: .6em;
+      line-height: 1.2em;
+      color: #4d4d4d;
+      padding: .2em 0 .2em .6em; }
+      .af-sp-faqContent .notice-block ul li:before {
+        content: "·";
+        display: inline-block;
+        position: absolute;
+        top: .1em;
+        left: 0;
+        padding-right: .3em; }
+
+@media only screen and (max-width: 1024px) {
+  /* healthHub start */
+  .af-sp-faqContent .page-content.content-toomuch .rel-content-healthHub .title {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  .af-sp-faqContent .page-content.content-toomuch .faq-healthHub:not(:last-child) {
+    margin-bottom: 64px;
+  }
+  .af-sp-faqContent .page-content.content-toomuch .faq-healthHub .faq-healthHub-wrapper {
+    row-gap: 32px;
+    column-gap: 40px;
+  }
+  .af-sp-faqContent .page-content .faq-healthHub .faq-healthHub-wrapper p {
+    font-size: 16px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+  /* healthHub end */ 
+}
+
+@media only screen and (max-width: 730px) {
+  .af-sp-faqContent .page-header {
+    padding-top: 1.4em; }
+    .af-sp-faqContent .page-header .title {
+      font-size: 1.8em; }
+    .af-sp-faqContent .page-header .option {
+      text-align: left; }
+      .af-sp-faqContent .page-header .option a.print, .af-sp-faqContent .page-header .option a.sendPhone {
+        display: none; }
+      .af-sp-faqContent .page-header .option a.copyLink {
+        display: inline-block; }
+      .af-sp-faqContent .page-header .option a:first-child {
+        padding-left: 0; }
+        .af-sp-faqContent .page-header .option a:first-child:before {
+          border: 0; }
+  .af-sp-faqContent .page-content.content-toomuch .main-content {
+    word-break: break-word;
+  }
+  .af-sp-faqContent .page-content table {
+    width: 100% !important;
+    height: auto !important; }
+  .af-sp-faqContent .page-content
+  .af-sp-faqContent .feedback-block {
+    padding: 1.2em 1.5em; }
+  .af-support-faq .af-sp-container {
+    padding: 0 2em; }
+  .af-support-faq .icr-block {
+    padding: .5em 0 1.5em;
+    text-align: center; }
+    .af-support-faq .icr-block:before {
+      font-size: 3.5em;
+      display: block;
+      position: relative;
+      top: inherit;
+      left: inherit;
+      margin-bottom: .1em; }
+}
+
+@media only screen and (max-width: 600px) {
+  .af-sp-faqContent .feedback-block .af-sp-btn {
+    float: left;
+    width: 32.5%;
+    margin-right: 1.25%;
+    line-height: 3em;
+    height: 3em; }
+    .af-sp-faqContent .feedback-block .af-sp-btn:last-child {
+      margin-right: 0; }
+  .af-sp-faqContent .feedback-block:after {
+    content: "";
+    display: block;
+    clear: both; } 
+
+  /* healthHub start */
+  .af-sp-faqContent .page-content.content-toomuch .faq-healthHub .faq-healthHub-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    row-gap: 36px;
+  }
+  /* healthHub end */ 
+}
