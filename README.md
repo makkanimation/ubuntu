@@ -60,3 +60,5 @@ https://stackoverflow.com/questions/2586339/how-to-increase-apache-2-uri-length-
 # BIOS item-Restore AC Power Loss function (Google search: asus bios restore ac power loss)
 https://www.asus.com/support/faq/1049855/
 
+# Enable Https 
+https://askubuntu.com/questions/500175/how-can-i-open-port-443
